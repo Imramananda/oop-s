@@ -24,6 +24,6 @@ int main() {
     
     // Output: Drawing Circle
     s->draw();    
-    Shape* obj = new Shape(); // error since it is pure virtual
+   // Shape* obj = new Shape(); // error since it is pure virtual
     delete s;
 }
